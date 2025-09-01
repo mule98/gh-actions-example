@@ -11,6 +11,8 @@ on:
       - java-app/**
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
+    branches: ["main"]
 
 jobs:
   build:
