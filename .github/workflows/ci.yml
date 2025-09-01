@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Run Java CI/CD Pipeline
-      uses: ./.github/actions/check
+      uses: ./.github/actions/ci-cd
       with:
         java-version: '21'
         maven-args: '-B -V'
