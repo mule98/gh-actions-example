@@ -3,7 +3,7 @@
 ##
 ## More details on https://github.com/actions/first-interaction
 
-name: Greetings
+name: First action
 
 on: [pull_request_target, issues]
 
