@@ -1,7 +1,7 @@
 # This workflow prints the value of a variable at different levels (workflow, job, and step).
 
 name: Debug the Mess
-on: workflow_dispatch
+on: [workflow_dispatch]
 
 env:
   MY_VAR: "🔵 Workflow Level Value"
